@@ -1,0 +1,21 @@
+.footer {
+  background: linear-gradient(to right, #243b55, #141e30);
+}
+.footer .footer__content .footer__content_icons .footer__content_icons-icon, .footer .footer__content .footer__content_icons .footer__content_icons-title {
+  color: white;
+}
+.footer .footer__content .footer__content_bottom .footer__content_bottom-logo {
+  height: 300px;
+}
+.footer .footer__content .footer__content_bottom .footer__content_bottom-txt {
+  color: rgb(185, 185, 185);
+  font-weight: 600;
+}
+.footer .footer__content .footer__content_modal .footer__content_modal_btn-launch {
+  color: white;
+  background-color: rgb(199, 43, 43);
+}
+.footer .footer__content .footer__content_modal .footer__content_modal_btn-submit {
+  color: white;
+  background-color: rgb(199, 43, 43);
+}/*# sourceMappingURL=footer.css.map */

@@ -1,0 +1,112 @@
+//styles on scroll
+.--contract{
+    height: 50px !important;
+}
+
+.--opacity1{
+    opacity: 1 !important;
+    height: auto !important;
+}
+
+
+.header{
+    background: #ffff;
+    position: fixed;
+    z-index: 3;
+    width: 100%;
+    height: auto;
+    transition: all 500ms ease;
+
+    .header__nav {
+        .header__nav__container {
+
+            .header__nav__container-logo {
+               height: 100px;
+               transition: all 500ms ease;
+            }
+
+            .header__nav__container__profile-badge {
+                position: absolute;
+                left: 85%;
+
+                img {
+                    vertical-align: middle;
+                    width: 50px;
+                    height: 50px;
+                    border-radius: 50%;
+                    transition: all 250ms ease;
+                }
+                img:hover{
+                    width: 60px;
+                    height: 60px;
+                }
+
+                p {
+                    text-align: right;
+                    font-weight: 600;
+                }
+            }
+        }
+    }
+
+    .header__modal-header{
+        opacity: 0;
+
+
+        .header__modal-header__nav{
+            width: 200px;
+            right: 3%;
+            top: 70%;
+
+            .triangle_header{
+                width: 60px;
+                height: 30px;
+                clip-path: polygon(51% 28%, 25% 100%, 76% 100%);
+                background: rgba(68, 68, 68, 0.91);
+                box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+                backdrop-filter: blur(14.7px);
+                left: 60%;               
+            }
+
+            ul{
+                background: rgba(68, 68, 68, 0.91);
+                box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+                backdrop-filter: blur(14.7px);
+                list-style: none;
+                border-radius: 10px;
+
+                li{
+                    a, button{
+                        text-decoration: none;
+
+                        h1{
+                            color: #cccc;
+                        }
+                    }
+
+                    :hover{
+                        color: white;
+                    }
+                    
+                }
+
+                .btn-sair{
+                    height: 25px;
+                }
+            }
+
+
+        }
+    }
+}
+
+@media (max-width: 992px) {
+    .header{
+    .header__modal-header{
+        right: 50%;
+        top: 95%;
+        clip-path: polygon(0 100%, 100% 100%, 100% 9%, 25% 9%, 17% 0, 11% 9%, 0 9%);
+        height: 0%;
+    }
+}
+}

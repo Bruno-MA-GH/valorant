@@ -1,0 +1,28 @@
+.agentes{
+    background-image: url(../../public/images/galeria_agentes_bg.png);
+    background-attachment: fixed;
+    background-size: cover;
+    height: auto;
+    padding: 24px;
+    .galeria-agentes{
+        max-width: 90%;
+        margin: 0 auto;
+        column-count: 4;
+        .galeria-agentes__item{
+            margin: 16px;
+            width: 100%;
+            height: 100%;
+            border-radius: 30px;
+            overflow: hidden;
+            break-inside: avoid-column;
+            p{
+                padding: 16px;
+            }
+            img{
+                width: 100%;
+                object-fit: cover;
+            }
+        }
+    }
+}
+

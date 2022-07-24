@@ -1,0 +1,53 @@
+html{
+    font-size: 16px;
+}
+
+
+
+h1{
+    font-size: 2rem;
+    font-family: 'Bebas Neue', cursive;
+}
+
+p{
+    font-size: 1rem;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 25px;  
+    font-weight: 700;
+}
+
+.conteudo{
+    padding-top: 126px;
+}
+
+.form-control:focus{
+    border-color: #c72b2b;
+    box-shadow: 0 0 0 0.25rem rgb(199 43 43 / 23%);
+}
+
+
+.owl-nav .owl-prev:hover, .owl-nav .owl-next:hover {
+    background: none !important;
+    outline: none !important;
+    opacity: 1;
+  }
+
+.owl-carousel{
+    .owl-next,.owl-prev{
+        width: 60px !important;
+        height: 60px !important;
+        color: white !important;
+        position: absolute !important;
+        z-index: 3 !important;
+        font-size: 4rem;
+        top: 40%;
+    }
+
+    .owl-next{
+        right: 35%;
+    }
+
+    .owl-prev{
+        left: 35%;
+    }
+}

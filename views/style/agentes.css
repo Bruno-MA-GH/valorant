@@ -1,0 +1,30 @@
+.agentes {
+  background-image: url(../../public/images/galeria_agentes_bg.png);
+  background-attachment: fixed;
+  background-size: cover;
+  height: auto;
+  padding: 24px;
+}
+.agentes .galeria-agentes {
+  max-width: 90%;
+  margin: 0 auto;
+  -moz-column-count: 4;
+       column-count: 4;
+}
+.agentes .galeria-agentes .galeria-agentes__item {
+  margin: 16px;
+  width: 100%;
+  height: 100%;
+  border-radius: 30px;
+  overflow: hidden;
+  -moz-column-break-inside: avoid;
+       break-inside: avoid-column;
+}
+.agentes .galeria-agentes .galeria-agentes__item p {
+  padding: 16px;
+}
+.agentes .galeria-agentes .galeria-agentes__item img {
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}/*# sourceMappingURL=agentes.css.map */

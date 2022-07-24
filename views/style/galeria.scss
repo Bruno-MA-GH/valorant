@@ -1,0 +1,91 @@
+.galeria {
+    background-image: url("../../public/images/carousel-agents-bg.webp");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    .galeria__nav1 {
+        top: 135px;
+        width: 100%;
+        .vr{
+            color: white;
+            width: 1px;
+            opacity: 100%;
+        }
+        .nav-link{
+            background: none;
+            border: none;
+            background: rgba(255, 255, 255, 0.815);
+            border-radius: 10px;
+            box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+            backdrop-filter: blur(6.9px);
+        }
+    }
+
+    .galeria__container-carousel {
+        height: auto;
+        z-index: 3;
+        height: auto;
+
+        .galeria__slider {
+            margin-top: 200px;
+            height: 60vh;
+
+            .galeria__slider-item{
+                img {
+                    transition: all 500ms ease;
+                    height: 95%;
+                }
+                :hover{
+                    transform: translateY(-20px);
+                }
+            }
+
+
+            .owl-item {
+                transform: scale(0.6);
+                opacity: 70%;
+                transition: all 500ms ease;
+            }
+
+            .center {
+                transform: scale(0.9);
+                opacity: 100%;
+                border-radius: 30px;
+               // backdrop-filter: blur(3px);
+            }
+        }
+    }
+
+
+    .agents__description-triangle {
+        width: 60px;
+        height: 60px;
+        clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+        margin: 0 auto;
+        bottom: -1px;
+    }
+
+    .agents__description {
+        .agents__description-galery {
+            img {
+                width: 100%;
+                height: 200px;
+                object-fit: cover;
+                object-position: center center;
+            }
+        }
+    }
+}
+
+.nav-link.active{
+    color: black !important;
+}
+.nav-link:hover{
+    transform: scale(1.1)!important;
+    h1{
+        color: black !important;
+    }
+}
+
+.nav-link{
+    transition: all 250ms ease;
+}
